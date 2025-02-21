@@ -1,0 +1,9 @@
+<div> Hello World </div>
+
+ <%@list_of_links.each do |the_item| %> 
+  <div> 
+    <a href = "<%=the_item.link_url%>">
+    <%=the_item.link_description%>
+    </a>
+  </div>
+  <%end%>
